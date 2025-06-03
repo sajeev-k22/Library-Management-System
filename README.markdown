@@ -192,6 +192,12 @@ The project includes a JUnit 5 test suite to verify functionality:
       <scope>test</scope>
   </dependency>
   ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+👨‍💻 Author
+
+- Sajeev Kaleeswaran
+- Email: sajeevkaleeswaran@gmail.com
+- GitHub: github.com/sajeev-k22
 
 ## Notes
 - **Resource Management**: The code uses `Scanner` for input but may have resource leaks (unclosed `Scanner` instances). In production, use try-with-resources.
